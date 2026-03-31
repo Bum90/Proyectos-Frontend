@@ -1,0 +1,146 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #3c5dcc;
+    color: white;
+    padding: 2rem 1rem;
+    text-shadow: rgb(2, 11, 58) 0.1em 0.1em 0.2em;
+}
+
+.badge {
+    background-color: #577eff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.icono-blanco {
+    filter: invert(1);
+    float: right;
+    width: 12rem;
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.icono {
+    filter: invert(1);
+}
+
+header h1 {
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.datosmio {
+    text-align: center;
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+hr {
+    border: none;
+  border-top: 2px solid #d3d3d3; 
+  width: 85%;                 
+  margin: auto
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+ section > h2 {
+    text-align: center;
+    color: #000000;
+   } 
+
+.Parrafo1 {
+    text-align: center;
+    color: #000000;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+    }
+
+.Parrafo2 {
+    text-align: center;
+    color: #000000;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 1.5rem 0;
+    }
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+li {
+    background-color: #3c5dcc;
+    border: 1px solid #6f89dd;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+li:hover {
+    color: rgb(255, 255, 255);
+    background-color: #2e489e;
+    cursor: pointer;
+    }
+
+section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+
+.cta-box {
+    padding: 2rem 1rem;
+    text-align: left;
+}
+
+img.icono-correo {
+    width: 5rem;
+    margin-right: 1rem;
+    float: right;
+}
+
+footer {
+    background-color: #3c5dcc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 0 0 10px 10px;
+}
