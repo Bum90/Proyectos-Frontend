@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>CRUD de Usuarios</h2>
+
+    <div class="name-email">
+        <input type="text" id="Name" placeholder="Nombre del Usuario">
+        <input type="text" id="Email" placeholder="Email del Usuario">
+        <button onclick="Crear()">➕ Crear</button>
+    </div>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th><th>Nombre</th><th>Email</th><th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody id="Tabla"></tbody>
+</table> 
+
+<script>
+    let usuario = [];
+    let nextId = 1;
+
+    function crear() {
+        const nombre = document.getElementById("Nombre").value.trim();
+        const email = document.getElementById("Email").value.trim();
+        if (!nombre || !email) return alert("Complete todo los campos");
+
+            usuarios.push({ id: nextId++, nombre, email});
+            limpiarInpunts();
+            renderizar();
+    }
+</script>
+
+</body>
+</head>
