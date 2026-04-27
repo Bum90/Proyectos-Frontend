@@ -22,8 +22,14 @@ table {
     margin-top: 20px;
 }
 
-th, td {
+td, th {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: left;
+}
+
+.crear, .buscar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
